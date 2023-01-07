@@ -2,8 +2,10 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__languages/header__languages.css);
 @import url(../blocks/header/__logo/logo.css);
-@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_ru/header__lang-link_ru.css);
+@import url(../blocks/header/__lang-link/_en/header__lang-link_en.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/lead__subtitle/lead__subtitle.css);
@@ -25,3 +27,16 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website/_link/place__website_link.css);
 @import url(../blocks/place/__website/_url-heading/place__website_url-heading.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__subtatle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link-calendar/footer__link-calendar.css);
+@import url(../blocks/footer/__link-maps/footer__link-maps.css);
+@import url(../blocks/footer/__link-pogoda/footer__link-pogoda.css);
+@import url(../blocks/footer/__link-rasp/footer__link-rasp.css);
+@import url(../blocks/footer/__link-travel/footer__link-travel.css);
+@import url(../blocks/footer/__links/footer__links.css)
+
