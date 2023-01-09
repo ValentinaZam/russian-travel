@@ -2,5 +2,5 @@
     display: grid;
     grid-template-columns: 440px 456px;
     grid-template-rows: auto 440px;
-    gap: 48px 14px;
+    gap: 48px 32px;
 }

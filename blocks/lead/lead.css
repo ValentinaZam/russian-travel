@@ -1,4 +1,16 @@
 .lead {
-    display: grid;
-    color: #FFFFFF;
+    max-width: 984px;
+    margin: 56px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        margin: 48px 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        margin: 48px 0 0;
+    }
 }
