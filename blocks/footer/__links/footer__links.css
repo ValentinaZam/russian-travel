@@ -1,9 +1,18 @@
 .footer__links {
     margin: 0;
+    padding: 0;
     display: grid;
     grid-auto-flow: column;
     column-gap: 18px;
     grid-template-columns: repeat(5, min-content);
     list-style: none;
     
+}
+
+@media screen and (max-width: 720px) {
+    .footer__links {
+       
+        grid-template-rows: repeat(5, min-content);
+        row-gap: 32px;
+    }
 }
